@@ -3,6 +3,7 @@ public class Display {
     public static void displayArray(){
         int[] arrayOfInt = RandomArray.generateRandomArray();
         System.out.println("Unsorted array: " + Arrays.toString(arrayOfInt));
+        
         long start = System.nanoTime();
         BubbleSort.bubbleSort(arrayOfInt);
         long end = System.nanoTime() - start;
