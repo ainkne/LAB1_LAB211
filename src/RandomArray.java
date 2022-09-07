@@ -5,7 +5,7 @@ public class RandomArray {
         int n = Validation.checkInt("Enter number of array: ");
         int[] arrayOfInt = new int[n];
         for (int i = 0; i < n; i++){
-            arrayOfInt[i] = randomValue.nextInt(10001);
+            arrayOfInt[i] = randomValue.nextInt(1001);
         }
         return arrayOfInt;
     }
