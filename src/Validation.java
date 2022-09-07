@@ -6,8 +6,7 @@ public class Validation {
         while (true) {
             try {
                 System.out.println(msg);
-                int n = Integer.parseInt(sc.nextLine());
-                return n;
+                return Integer.parseInt(sc.nextLine());
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input, try again!");
                 System.out.print(">> ");
