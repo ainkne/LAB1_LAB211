@@ -10,7 +10,7 @@ public class Validation {
                 return n;
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input, try again!");
-                System.out.println(">> ");
+                System.out.print(">> ");
             }
         }
     }
